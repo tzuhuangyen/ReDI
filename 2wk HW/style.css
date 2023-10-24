@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.card {
+  background: linear-gradient(
+    230deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(254deg 64% 28%) 11%,
+    hsl(258deg 44% 37%) 22%,
+    hsl(260deg 32% 45%) 33%,
+    hsl(261deg 27% 54%) 44%,
+    hsl(263deg 27% 63%) 56%,
+    hsl(264deg 28% 72%) 67%,
+    hsl(264deg 28% 81%) 78%,
+    hsl(265deg 29% 90%) 89%,
+    hsl(0deg 0% 100%) 100%
+  );
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+form {
+  margin: 20px 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #b8deff;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  margin-top: 5px;
+}
+#name::placeholder {
+  color: #fffdfd;
+}
+#email::placeholder {
+  color: #fffdfd;
+}
+
+button {
+  background: hsl(274.84deg 19.34% 42.15%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s ease-in; /* 添加缓动效果 */
+}
+
+button:hover {
+  background: #4a2781;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+}
+
+.items li {
+  margin: 10px 0;
+}
+
+/* Add more styles as needed */
